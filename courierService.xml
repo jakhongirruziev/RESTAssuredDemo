@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test
+          name="/Users/jakhongirruziev/workspace/DeleverAPITest/src/test/java/tests/courierService">
+        <classes>
+            <class name="tests.courierService.CreateCourier"/>
+            <class name="tests.courierService.UpdateCourier"/>
+            <class name="tests.courierService.CourierLogin"/>
+            <class name="tests.courierService.GetAllCouriers"/>
+            <class name="tests.courierService.GetCourier"/>
+            <class name="tests.courierService.SearchByPhone"/>
+            <class name="tests.courierService.GetAllCourierBranchIds"/>
+            <class name="tests.courierService.BlockingCourier"/>
+            <class name="tests.courierService.UnblockingCourier"/>
+            <class name="tests.courierService.DeleteCourier"/>
+    <!--    <class name="tests.courierService.CreateCourierDetails"/>
+            <class name="tests.courierService.UpdateCourierDetails"/>
+            <class name="tests.courierService.GetCourierDetails"/>
+            <class name="tests.courierService.GetAllCourierVehicles"/>    -->
+        </classes>
+    </test>
+</suite>

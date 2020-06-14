@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="106.017" tests="11" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/jakhongirruziev/workspace/DeleverAPITest/target/test-classes:/Users/jakhongirruziev/workspace/DeleverAPITest/target/classes:/Users/jakhongirruziev/.m2/repository/io/rest-assured/rest-assured/4.3.0/rest-assured-4.3.0.jar:/Users/jakhongirruziev/.m2/repository/org/codehaus/groovy/groovy/3.0.2/groovy-3.0.2.jar:/Users/jakhongirruziev/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.2/groovy-xml-3.0.2.jar:/Users/jakhongirruziev/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/jakhongirruziev/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/jakhongirruziev/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/jakhongirruziev/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/jakhongirruziev/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/jakhongirruziev/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/jakhongirruziev/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/jakhongirruziev/.m2/repository/io/rest-assured/json-path/4.3.0/json-path-4.3.0.jar:/Users/jakhongirruziev/.m2/repository/org/codehaus/groovy/groovy-json/3.0.2/groovy-json-3.0.2.jar:/Users/jakhongirruziev/.m2/repository/io/rest-assured/rest-assured-common/4.3.0/rest-assured-common-4.3.0.jar:/Users/jakhongirruziev/.m2/repository/io/rest-assured/xml-path/4.3.0/xml-path-4.3.0.jar:/Users/jakhongirruziev/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/jakhongirruziev/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar:/Users/jakhongirruziev/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar:/Users/jakhongirruziev/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.3.0.1/jaxb-osgi-2.3.0.1.jar:/Users/jakhongirruziev/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/jakhongirruziev/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/jakhongirruziev/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/jakhongirruziev/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/jakhongirruziev/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/jakhongirruziev/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/jakhongirruziev/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/jakhongirruziev/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar:/Users/jakhongirruziev/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/jakhongirruziev/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/jakhongirruziev/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/jakhongirruziev/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/jakhongirruziev/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/jakhongirruziev/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/jakhongirruziev/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/jakhongirruziev/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/jakhongirruziev/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/jakhongirruziev/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/jakhongirruziev/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/jakhongirruziev/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/jakhongirruziev/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Tashkent"/>
+    <property name="user.country.format" value="UZ"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/jakhongirruziev/workspace/DeleverAPITest/target/surefire/surefirebooter7479535216479091821.jar /Users/jakhongirruziev/workspace/DeleverAPITest/target/surefire 2020-06-08T18-18-47_729-jvmRun1 surefire4965092118084264346tmp surefire_02565824704616093813tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="testngFile" value="courierService.xml"/>
+    <property name="surefire.test.class.path" value="/Users/jakhongirruziev/workspace/DeleverAPITest/target/test-classes:/Users/jakhongirruziev/workspace/DeleverAPITest/target/classes:/Users/jakhongirruziev/.m2/repository/io/rest-assured/rest-assured/4.3.0/rest-assured-4.3.0.jar:/Users/jakhongirruziev/.m2/repository/org/codehaus/groovy/groovy/3.0.2/groovy-3.0.2.jar:/Users/jakhongirruziev/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.2/groovy-xml-3.0.2.jar:/Users/jakhongirruziev/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/jakhongirruziev/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/jakhongirruziev/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/jakhongirruziev/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/jakhongirruziev/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/jakhongirruziev/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/jakhongirruziev/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/jakhongirruziev/.m2/repository/io/rest-assured/json-path/4.3.0/json-path-4.3.0.jar:/Users/jakhongirruziev/.m2/repository/org/codehaus/groovy/groovy-json/3.0.2/groovy-json-3.0.2.jar:/Users/jakhongirruziev/.m2/repository/io/rest-assured/rest-assured-common/4.3.0/rest-assured-common-4.3.0.jar:/Users/jakhongirruziev/.m2/repository/io/rest-assured/xml-path/4.3.0/xml-path-4.3.0.jar:/Users/jakhongirruziev/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/jakhongirruziev/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar:/Users/jakhongirruziev/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar:/Users/jakhongirruziev/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.3.0.1/jaxb-osgi-2.3.0.1.jar:/Users/jakhongirruziev/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/jakhongirruziev/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/jakhongirruziev/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/jakhongirruziev/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/jakhongirruziev/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/jakhongirruziev/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/jakhongirruziev/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/jakhongirruziev/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar:/Users/jakhongirruziev/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/jakhongirruziev/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/jakhongirruziev/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/jakhongirruziev/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/jakhongirruziev/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/jakhongirruziev/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/jakhongirruziev/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/jakhongirruziev/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/jakhongirruziev/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/jakhongirruziev/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/jakhongirruziev/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/jakhongirruziev/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/jakhongirruziev/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/jakhongirruziev"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/jakhongirruziev/workspace/DeleverAPITest"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/jakhongirruziev/workspace/DeleverAPITest/target/surefire/surefirebooter7479535216479091821.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_251-b08"/>
+    <property name="user.name" value="jakhongirruziev"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.4"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/jakhongirruziev/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/bw/fvxk50bd5d9_068d88rl4j9r0000gp/T/"/>
+    <property name="java.version" value="1.8.0_251"/>
+    <property name="user.dir" value="/Users/jakhongirruziev/workspace/DeleverAPITest"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/jakhongirruziev/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.251-b08"/>
+    <property name="java.ext.dirs" value="/Users/jakhongirruziev/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="createCourier" classname="tests.courierService.CreateCourier" time="1.594"/>
+  <testcase name="updateCourier" classname="tests.courierService.UpdateCourier" time="4.81"/>
+  <testcase name="checkLogin" classname="tests.courierService.CourierLogin" time="6.638"/>
+  <testcase name="confirmLogin" classname="tests.courierService.CourierLogin" time="1.429"/>
+  <testcase name="getAllCouriers" classname="tests.courierService.GetAllCouriers" time="1.694"/>
+  <testcase name="getCourier" classname="tests.courierService.GetCourier" time="3.995"/>
+  <testcase name="getCourierByPhone" classname="tests.courierService.SearchByPhone" time="5.009"/>
+  <testcase name="getCourierBranchesIds" classname="tests.courierService.GetAllCourierBranchIds" time="2.866"/>
+  <testcase name="blockCourier" classname="tests.courierService.BlockingCourier" time="3.915"/>
+  <testcase name="unblockCourier" classname="tests.courierService.UnblockingCourier" time="6.351"/>
+  <testcase name="deleteCourier" classname="tests.courierService.DeleteCourier" time="9.59">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <200>.
+
+	at tests.courierService.DeleteCourier.deleteCourier(DeleteCourier.java:21)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Server: nginx/1.10.3 (Ubuntu)
+Date: Mon, 08 Jun 2020 13:19:40 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 20
+Connection: keep-alive
+
+{
+    "answer": "success"
+}
+]]></system-out>
+  </testcase>
+</testsuite>

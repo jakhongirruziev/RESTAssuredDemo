@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 106.017 s <<< FAILURE! - in TestSuite
+tests.courierService.DeleteCourier.deleteCourier  Time elapsed: 9.59 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <200>.
+
+	at tests.courierService.DeleteCourier.deleteCourier(DeleteCourier.java:21)
+
